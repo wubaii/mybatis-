@@ -1,0 +1,5 @@
+<mapper namespace="com.mybatis.dao.IUserDao">
+    <select id="findAll"  resultType="com.mybatis.bean.User">
+        SELECT * FROM user
+    </select>
+</mapper>
